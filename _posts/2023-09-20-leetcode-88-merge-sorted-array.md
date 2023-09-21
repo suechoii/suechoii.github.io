@@ -5,9 +5,9 @@ categories: [Leetcode]
 date: 2023-09-20 15:23 +0800
 ---
 
-My first approach to this problem was to assign pointers to the beginning of each array and compare the current value of each array to see where the current value of the second array should be inserted in the first array. It worked, but gaave 46ms runtime, which I thought could be improved. 
+My first approach to this problem was to assign pointers to the beginning of each array and compare the current value of each array to see where the current value of the second array should be inserted in the first array. It worked, but gave 46ms runtime, which I thought could be improved. 
 
-Hence, the second approach was to use to same logic, but this time starting moving the pointers in a descending order. Since the first array has enough space for the elements in the second array, we can compare the last value in the first array with the last value in the second array and place the larger one in the last slot of the first array. Here is my newly implemented code : 
+Hence, the second approach was to use the same logic, but this time moving the pointers in a descending order. Since the first array has enough space for the elements in the second array, we can compare the last value in the first array with the last value in the second array and place the larger one in the last slot of the first array. I made sure to cover the cases where there are leftover elements in the second array. Here is my newly implemented code : 
 
 ```python
 def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
