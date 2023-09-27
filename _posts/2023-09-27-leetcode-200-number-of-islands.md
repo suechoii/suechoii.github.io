@@ -41,3 +41,12 @@ def numIslands(self, grid: List[List[str]]) -> int:
     
     return numberIslands
 ```
+Time limit exceeded, so I tried changing visited to a list of booleans :
+
+```python
+visited = [[False] * n for _ in range(m)]
+...
+if grid[r][c] == "1" and not visited[r][c]:
+                            visited[r][c] = True
+                            q.append((r,c))
+```
