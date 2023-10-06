@@ -24,7 +24,7 @@ date: 2023-10-06 23:32 +0700
 > endpoint를 설정해서 bean들의 상태나 메모리의 상태 혹은 요청에 대한 상태 등을 추적하거나 관리할수 있다. 
 
 **Creating a Spring Boot Project**
-<a>start.spring.io</a> [Spring initializr] 로 Spring Boot Project의 set-up을 할수 있다.
+[start.spring.io](https://start.spring.io)[Spring initializr] 로 Spring Boot Project의 set-up을 할수 있다.
 
 maven프로젝트 간의 상속 구조가 가능해서, 아래와 같이 pom.xml에 설정을 한다면 해당 groupId와 artifactId를 갖고 있는 설정을 그대로 갖고 오게된다.
 ```xml
