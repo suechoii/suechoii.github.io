@@ -24,6 +24,7 @@ date: 2023-10-06 23:32 +0700
 > endpoint를 설정해서 bean들의 상태나 메모리의 상태 혹은 요청에 대한 상태 등을 추적하거나 관리할수 있다. 
 
 **Creating a Spring Boot Project**
+
 [start.spring.io](https://start.spring.io)[Spring initializr] 로 Spring Boot Project의 set-up을 할수 있다.
 
 maven프로젝트 간의 상속 구조가 가능해서, 아래와 같이 pom.xml에 설정을 한다면 해당 groupId와 artifactId를 갖고 있는 설정을 그대로 갖고 오게된다.
@@ -57,6 +58,7 @@ public class HelloController {
 Spring Configuration 할때 두가지 방법이 있다 : 
 1. 기존 xml을 사용하는 방법, 
 2. Java를 사용해 annotation을 주고 특정 bean을 등록하는 방법. 해당 bean은 설정을 위해 사용되는 클래스
-- Spring Boot는 @Configuration 이라는 annotation을 갖고 있는 다양한 기본 설정 클래스들을 갖고있다 --> @SpringBootConfiguration, @EnableAutoConfiguration, @ComponentScan
+
+Spring Boot는 @Configuration 이라는 annotation을 갖고 있는 다양한 기본 설정 클래스들을 갖고있다 --> @SpringBootConfiguration, @EnableAutoConfiguration, @ComponentScan
 > ComponentScan이란? Spring bean 객체들을 찾는데 사용된다 - 특정 패키지로부터 그런 해당 annotation이 붙은 클래스들을 찾아서 bean을 등록해준다.
 > SpringBootApplication annotation을 갖고 있는 클래스는 항상 root directory에 넣어주기! 그래야지 아래로 내려가면서 component scan이 가는하기 때문이다. 
