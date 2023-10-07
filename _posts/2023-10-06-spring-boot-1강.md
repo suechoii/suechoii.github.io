@@ -61,4 +61,4 @@ Spring Configuration 할때 두가지 방법이 있다 :
 
 Spring Boot는 @Configuration 이라는 annotation을 갖고 있는 다양한 기본 설정 클래스들을 갖고있다 --> @SpringBootConfiguration, @EnableAutoConfiguration, @ComponentScan
 > ComponentScan이란? Spring bean 객체들을 찾는데 사용된다 - 특정 패키지로부터 그런 해당 annotation이 붙은 클래스들을 찾아서 bean을 등록해준다.
-> SpringBootApplication annotation을 갖고 있는 클래스는 항상 root directory에 넣어주기! 그래야지 아래로 내려가면서 component scan이 가는하기 때문이다. 
+> SpringBootApplication annotation을 갖고 있는 클래스는 항상 root directory에 넣어주기! 그래야지 아래로 내려가면서 component scan이 가능하기 때문이다. 
