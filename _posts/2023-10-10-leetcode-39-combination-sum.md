@@ -45,4 +45,4 @@ def backtrack(i, current, total) :
 
 backtrack(0, [], 0)
 ```
-![tree diagram](/Users/sue/Desktop/tree.png)
+![tree diagram](/assets/img/tree.png)
