@@ -34,3 +34,4 @@ def longestPalindrome(self, s: str) -> str:
             l -= 1
     
     return result
+```
