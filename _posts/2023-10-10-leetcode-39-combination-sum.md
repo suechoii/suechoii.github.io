@@ -30,7 +30,7 @@ def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
     return result
 ```
 
-I realized this is quite inefficient as it checks for duplicates each time. Hence modified the code . Below is a diagram from Neetcode with explains the two recursion calls each time. 
+I realized this is quite inefficient as it checks for duplicates each time. Hence modified the code . Below is a diagram from Neetcode which explains the two recursion calls each time. 
 
 ```python
 def backtrack(i, current, total) : 
