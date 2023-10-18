@@ -138,6 +138,7 @@ public class UserServiceLogicTest {
     }
     ```
     - 이때, post나 status같은 메서드는 직접 manually import static method를 해야 한다. 
+    
     > import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post; 
 
     > import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print; 
