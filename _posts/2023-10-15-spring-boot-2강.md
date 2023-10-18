@@ -69,13 +69,15 @@ public class User {
 private UserStore userStore;
 ```
 > 생성자를 사용한는 alternative method도 있다. 이때, 아래와 같이 생성자를 생성해도 되고, lombok에 제공해주는 @RequiredArgsConstructor를 사용해도 된다 - 대신 userstore을 final로!
-```java
-private UserStore userStore;
-    
-public UserServiceLogic(UserStore userStore){
-    this.userStore = userStore;
-}
-```
+
+    ```java
+    private UserStore userStore;
+        
+    public UserServiceLogic(UserStore userStore){
+        this.userStore = userStore;
+    }
+    ```
+
 - Controller 예시
 ```java
 @PostMapping("/users")
@@ -137,6 +139,9 @@ public class UserServiceLogicTest {
     ```
     - 이때, post나 status같은 메서드는 직접 manually import static method를 해야 한다. 
     > import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post; 
+
     > import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print; 
+
     > import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content; 
+
     > import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
