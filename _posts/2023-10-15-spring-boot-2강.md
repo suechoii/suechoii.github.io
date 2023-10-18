@@ -61,3 +61,4 @@ public class User {
     }
 }
 ```
+- Bean 객체를 등록하기 위해서는 @Repository로 지정해야함. 
