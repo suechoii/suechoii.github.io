@@ -30,6 +30,6 @@ date: 2023-10-19 21:06 +0800
     - 애플리케이션 개발과 배포방법 (CI/CD)이 중요해진다. 
 
 ![diagram](/assets/img/micro_table.png)
-+ API Gateway는 Zuul을 사용한다. 
+- API Gateway는 Zuul을 사용한다. 
 
 - Spring Cloud Config는 각각의 마이크로 서비스들이 갖는 구성환경을 중앙집중식으로 모아서 깃에서 관리할수 구현할수 있게 해주고, 마이크로 서비스들은 그 서버에 접속해서 본 마이크로 서비스들의 환경을 가지고 가서 환경 설정을 하게 해준다. 
