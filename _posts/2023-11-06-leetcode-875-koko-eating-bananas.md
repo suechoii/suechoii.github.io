@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Leetcode 875 - Koko eating Bananas
-category: [Leetcoce]
-date: 2023-11-06 17:37 +0800
+category: [Leetcode]
+date: 2023-11-06 17:37 +0800 
 ---
 
 ```python
