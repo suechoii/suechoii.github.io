@@ -6,7 +6,6 @@ date: 2023-11-07 13:43 +0800
 ---
 ```python
 def minDays(self, bloomDay: List[int], m: int, k: int) -> int:
-
     def feasible(days) -> bool : 
         flowers, bouquets = 0, 0
         for bloom in bloomDay : 
