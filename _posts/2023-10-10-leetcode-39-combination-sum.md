@@ -9,7 +9,7 @@ As my previous post was on backtracking, I tried solving a similar question. Her
 
 ```python
 def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
+    result = []
 
     def backtrack(current, targ) : 
         if targ == 0 and len(current) != 0:
