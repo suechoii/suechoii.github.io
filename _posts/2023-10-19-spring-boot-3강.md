@@ -107,7 +107,7 @@ spring:
 - ConfigServer 실행 후, ConfigClient 실행하면 연결이 될것이다. Postman으로 확인 가능하다:
   ![diagram](/assets/img/Postman2.png)
 
-- 만약에 깃의 있는 파일의 컨텐트가 업데이트된다면, actuator을 사용해야 한다. 설정 방법은 :
+- 만약에 깃에 있는 파일의 컨텐트가 업데이트된다면, actuator을 사용해야 한다. 설정 방법은 :
   - in _application.yml_ :
   ```yml
   management:
