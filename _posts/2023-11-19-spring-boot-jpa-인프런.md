@@ -14,6 +14,6 @@ JPA
 - find > used to look up entities in the data store by the entity’s primary key
   `Customer cust = em.find(Customer.class, custID);`
 
-Spring bean autowiring. @Autowired annotation can be applied on variables and methods for autowiring byType. We can also use @Autowired annotation on constructor for constructor based spring autowiring. For @Autowired annotation to work, we also need to enable annotation based configuration in spring bean configuration file. Thisallows Spring to resolve and inject collaborating beans into our bean.
+- Spring bean autowiring. @Autowired annotation can be applied on variables and methods for autowiring byType. We can also use @Autowired annotation on constructor for constructor based spring autowiring. For @Autowired annotation to work, we also need to enable annotation based configuration in spring bean configuration file. Thisallows Spring to resolve and inject collaborating beans into our bean.
 
-@Transactional means all happens within a transaction, if any one throws an error, there will be rollback . It also performs rollback for Tests -> @Rollback(False) can be used to prevent any rollbacks.
+- @Transactional means all happens within a transaction, if any one throws an error, there will be rollback . It also performs rollback for Tests -> @Rollback(False) can be used to prevent any rollbacks.
