@@ -17,3 +17,7 @@ JPA
 - Spring bean autowiring. @Autowired annotation can be applied on variables and methods for autowiring byType. We can also use @Autowired annotation on constructor for constructor based spring autowiring. For @Autowired annotation to work, we also need to enable annotation based configuration in spring bean configuration file. Thisallows Spring to resolve and inject collaborating beans into our bean.
 
 - @Transactional means all happens within a transaction, if any one throws an error, there will be rollback . It also performs rollback for Tests -> @Rollback(False) can be used to prevent any rollbacks.
+
+In application.yml :
+spring.jpa.hibernate.ddl-auto: create
+이 옵션은 애플리케이션 실행 시점에 테이블을 drop 하고, 다시 생성한다.
