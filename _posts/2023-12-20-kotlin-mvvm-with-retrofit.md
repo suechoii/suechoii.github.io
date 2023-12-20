@@ -65,7 +65,8 @@ Steps to take :
 - What is **suspend** fun?
   - When Coroutine sees a suspend function while working on the main thread, it executes this suspend function and resumes to working on the main thread. 
   - Coroutine functions must have suspend in front of it. 
-  ![diagram](/assets/img/Coroutine.png)
-  *source: https://wooooooak.github.io/kotlin/2019/08/25/코틀린-코루틴-개념-익히기/*
+  
+![diagram](/assets/img/Coroutine.png)
+*source: https://wooooooak.github.io/kotlin/2019/08/25/코틀린-코루틴-개념-익히기/*
   
 - Git repo for templates : https://github.com/android/architecture-templates 
