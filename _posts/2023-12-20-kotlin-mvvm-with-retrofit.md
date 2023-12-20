@@ -60,11 +60,11 @@ Steps to take :
 
 - What is **Coroutine** in Kotlin?
   - This allows asynchronous programming, mainly for background tasks such as retreiving data from the network. 
-  - 
+  - Context switching is also possible.
+  
 - What is **suspend** fun?
   - When Coroutine sees a suspend function while working on the main thread, it executes this suspend function and resumes to working on the main thread. 
   - Coroutine functions must have suspend in front of it. 
-  - Context switching is also possible.
   ![diagram](/assets/img/Coroutine.png)
   *source: https://wooooooak.github.io/kotlin/2019/08/25/코틀린-코루틴-개념-익히기/*
   
